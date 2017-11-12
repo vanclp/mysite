@@ -29,22 +29,22 @@ const ResumeContainer = () => (
     <h2>Technical Skills</h2>
     <ul className="skill-list">
     <li className="skill">
-        <img src={csharp} />
+        <img src={csharp}  alt="c#"/>
       </li>
       <li className="skill">
-        <img src={react} />
+        <img src={react} alt="reactjs"/>
       </li>
       <li className="skill">
-        <img src={angular} />
+        <img src={angular} alt="angularjs"/>
       </li>
       <li className="skill">
-        <img src={javascript} />
+        <img src={javascript} alt="javascript"/>
       </li>
       <li className="skill">
-        <img src={html5} />
+        <img src={html5} alt="html5"/>
       </li>
       <li className="skill">
-        <img src={css3} />
+        <img src={css3} alt="css3"/>
       </li>
     </ul>
     <h2>Education</h2>

@@ -2,7 +2,6 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import Profile from './containers/ProfileContainer'
 import Resume from './containers/ResumeContainer'
-import Header from './components/Header'
 import NotFound from './components/NotFound'
 
 const App = () => {
