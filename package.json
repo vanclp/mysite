@@ -2,6 +2,7 @@
   "name": "vanclp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vanclp.com",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "normalize.css": "^7.0.0",
