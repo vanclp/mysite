@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+html,
+body,
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex-flow: row wrap;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 0 rgba(219, 219, 219, 0.3);
+}
+
+.headerTitle {
+  font-weight: 300;
+  font-size: 64px;
+}
+
+.headerSubtitle {
+  font-weight: 200;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7a7a7a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  width: 100%;
+  font-weight: unset;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.wrapper {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  margin: auto;
+  padding: 20px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 20px;
+}
+
+.sidebar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar h4 {
+  text-align: center
+}
+
+.column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact-item {
+  margin-right: 8px;
+}
+
+.line {
+  border-left: solid gray 1px;
+}
+
+.content {
+  line-height: 30px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.content h4 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-list {
+  display: flex;
+}
+
+.skill {
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill img {
+  width: 60px;
+  box-sizing: content-box;
+  transition-duration: .2s;
+  padding:10px;
+}
+
+.skill img:hover {
+  transform: scale(1.2);
+}
+
+.experience-list li {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.experience h4 {
+  color: gray;
+}
+
+@media screen and (max-width:950px) {
+  #content {
+    order: 1;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    order: 2;
+    width: initial;
+  }
+  .wrapper {
+    width: initial;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .skill-list{
+    flex-wrap: wrap;
+  }
+}
