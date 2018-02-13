@@ -10,14 +10,14 @@ const ProfileContainer = () => (
       <Sidebar />
       <div id="content" className="content container column">
         <p>I came from the City of Pines</p>
-        <p>I live in Taguig City</p>
-        <p>I watch a lot of tv series</p>
+        <p>I now reside in Taguig City</p>
+        <p>I watch a lot of tv series on days when I have nothing to do</p>
         <p>I am currently studying 日本語 (Japanese)</p>
         <p>
-          I do lots of stuff as a developer, some <strong>web</strong>, some{" "}
-          <strong>mobile</strong>, some all around
+          I do lots of stuff as a developer, some web, some mobile, some all
+          around
         </p>
-        <p>I love to learn new things and makes me excited</p>
+        <p>I am always facinated by something new</p>
         <p>
           I started my career as a dev/support at{" "}
           <strong>Texas Instruments Inc.</strong>
@@ -31,8 +31,8 @@ const ProfileContainer = () => (
           of Technologies
         </p>
         <p>
-          I transfered to <strong>Lotus Labs Inc.</strong> and worked as a front
-          end web developer{" "}
+          I then moved to <strong>Lotus Labs Inc.</strong> and worked as a front
+          end web developer
         </p>
         <p>
           I am now working as a "Software Engineer" in <strong>Infor</strong>
@@ -40,7 +40,7 @@ const ProfileContainer = () => (
         <p>
           I made a somewhat resume{" "}
           <Link to="/resume">
-            <em>"here"</em>
+            <strong>"here"</strong>
           </Link>{" "}
           if you prefer those things
         </p>
