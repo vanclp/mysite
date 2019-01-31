@@ -1,15 +1,12 @@
 pipeline {
-    agent { docker { image 'node:6.3' } }
+    agent {
+        docker { image 'node:7-alpine' }
+    }
     stages {
         stage('Test') {
             steps {
-                sh 'echo "Nice Test!"'
+                sh 'node --version'
             }
-        }
-    }
-    post {
-        always {
-            echo 'Build has finished!'
         }
     }
 }
