@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'echo "Fail!"'
+                sh 'echo "Nice Test!"'
             }
         }
     }
     post {
         always {
-            echo 'This will always run'
+            echo 'Build has finished!'
         }
     }
 }
