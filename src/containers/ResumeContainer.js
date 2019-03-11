@@ -6,6 +6,7 @@ import javascript from '../images/javascript.svg'
 import css3 from '../images/css3.svg'
 import html5 from '../images/html5.svg'
 import csharp from '../images/csharp.png'
+import aws from '../images/aws.svg'
 
 const ResumeContainer = () => (
   <div className="resume">
@@ -14,7 +15,7 @@ const ResumeContainer = () => (
     <h2>Experience</h2>
     <ul className="experience-list">
       <li className="experience">
-        <h3>Infor - Software Engineer</h3>
+        <h3>Infor - Software Engineer ( DevOps )</h3>
         <h4>January 2018 - Present</h4>
       </li>
       <li className="experience">
@@ -33,6 +34,9 @@ const ResumeContainer = () => (
     <h2>Technical Skills</h2>
     <ul className="skill-list">
       <li className="skill">
+        <img src={aws} alt="aws" />
+      </li>
+      <li className="skill">
         <img src={csharp} alt="c#" />
       </li>
       <li className="skill">
@@ -50,6 +54,7 @@ const ResumeContainer = () => (
       <li className="skill">
         <img src={css3} alt="css3" />
       </li>
+
     </ul>
     <h2>Education</h2>
     <ul>
@@ -60,8 +65,12 @@ const ResumeContainer = () => (
       </li>
     </ul>
     <h2>Certification</h2>
-    <ul>
-      <li>
+    <ul className="certification-list">
+      <li className="certification">
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <h5>January 2019</h5>
+      </li>
+      <li className="certification">
         <h3>Udacity React Nano Degree</h3>
         <h5>October 2017</h5>
       </li>

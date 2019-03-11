@@ -35,7 +35,7 @@ const ProfileContainer = () => (
           end web developer
         </p>
         <p>
-          I am now working as a "Software Engineer" in <strong>Infor</strong>
+          I am now working as a "Software Engineer" (DevOps) in <strong>Infor</strong>
         </p>
         <p>
           I made a somewhat resume{" "}
