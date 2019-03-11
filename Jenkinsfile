@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                // sh 'node --version'
-                sh 'echo "Fail!"; exit 1'
+                sh 'node --version'
+                // sh 'echo "Fail!"; exit 1'
             }
         }
     }
