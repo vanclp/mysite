@@ -116,34 +116,28 @@ ul {
   text-align: center;
 }
 
-.experience-list {
+.experience-list, .certification-list{
   display: flex;
   flex-direction: column;
 }
 
 .skill-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skill {
-  margin-right: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 20px;
 }
 
-.skill img {
-  width: 60px;
+.skill svg {
+  width: 70px;
+  display: flex;
   box-sizing: content-box;
-  transition-duration: .2s;
   padding:10px;
 }
 
-.skill img:hover {
-  transform: scale(1.2);
-}
-
-.experience-list li {
+.experience-list li, .certification-list li{
   margin-bottom: 10px;
 }
 
@@ -171,8 +165,8 @@ ul {
   }
 }
 
-@media screen and (max-width:490px) {
+/* @media screen and (max-width:490px) {
   .skill-list{
     flex-wrap: wrap;
   }
-}
+} */

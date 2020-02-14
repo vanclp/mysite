@@ -35,7 +35,10 @@ const ProfileContainer = () => (
           end web developer
         </p>
         <p>
-          I am now working as a "Software Engineer" in <strong>Infor</strong>
+          I exposed myself to a little bit of the "CLOUD" in <strong>Infor</strong>
+        </p>
+        <p>
+          I am now working as a "DevOps Engineer" in <strong>ING</strong>
         </p>
         <p>
           I made a somewhat resume{" "}
