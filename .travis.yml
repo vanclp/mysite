@@ -12,4 +12,5 @@ deploy:
   bucket: "vanclp.com"
   skip_cleanup: true
   local_dir: build
+  acl: public_read
   region: ap-southeast-1
