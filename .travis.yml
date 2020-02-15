@@ -1,5 +1,14 @@
 language: node_js
+
 node_js:
 - lts/*
 
 script: yarn build
+
+deploy:
+  provider: s3
+  access_key_id: $AWS_ID
+  secret_access_key: $AWS_KEY
+  bucket: "vanclp.com"
+  skip_cleanup: true
+  local_dir: build
