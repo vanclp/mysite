@@ -12,16 +12,16 @@ const style = {
   },
   message: {
     display: 'flex',
-    lineHeight: '60px'
   }
 }
 
 const NotFound = () => {
+  document.title = "404"
   return (
     <div style={style.container}>
       <div style={style.message}>
-        <h1 style={{marginRight:'5px'}}>Nothing to see here</h1>
-        <FA name="exclamation" size="4x"/>
+        <h1 style={{marginRight:'5px'}}>404</h1>
+        <FA name="exclamation" size="3x"/>
       </div>
       <Link to="/">Get me outta here</Link>
     </div>

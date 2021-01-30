@@ -61,10 +61,11 @@ ul {
 .wrapper {
   box-sizing: content-box;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   width: 1024px;
   margin: auto;
   padding: 20px;
+  justify-content: center;
 }
 
 .container {
