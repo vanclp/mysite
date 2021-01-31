@@ -23,7 +23,7 @@ const NotFound = () => {
         <h1 style={{marginRight:'5px'}}>404</h1>
         <FA name="exclamation" size="3x"/>
       </div>
-      <Link to="/">Get me outta here</Link>
+      <Link to="/">back</Link>
     </div>
   )
 }
