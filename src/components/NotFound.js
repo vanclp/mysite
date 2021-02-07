@@ -18,10 +18,7 @@ const NotFound = () => {
   document.title = "404"
   return (
     <div style={style.container}>
-      <div style={style.message}>
-        <h1 style={{marginRight:'5px'}}>404</h1>
-      </div>
-      <Link to="/">back</Link>
+      <Link to="/">home</Link>
     </div>
   )
 }
