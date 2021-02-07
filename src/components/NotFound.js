@@ -21,7 +21,6 @@ const NotFound = () => {
     <div style={style.container}>
       <div style={style.message}>
         <h1 style={{marginRight:'5px'}}>404</h1>
-        <FA name="exclamation" size="3x"/>
       </div>
       <Link to="/">back</Link>
     </div>
