@@ -1,5 +1,4 @@
 import React from 'react'
-import FA from 'react-fontawesome'
 import { Link } from 'react-router-dom'
 
 const style = {
