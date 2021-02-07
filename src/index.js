@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, hydrate } from 'react-dom'
 import App from './App'
-import registerServiceWorker from './registerServiceWorker'
+import {unregister} from './registerServiceWorker'
 import { BrowserRouter } from 'react-router-dom'
 import 'normalize.css'
 import 'font-awesome/css/font-awesome.min.css'
@@ -24,4 +24,4 @@ if (rootElement.hasChildNodes()) {
   render(<MainApp />, rootElement);
 }
 
-registerServiceWorker()
+unregister()
